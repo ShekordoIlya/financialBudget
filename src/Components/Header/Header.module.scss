@@ -7,13 +7,18 @@
         justify-content: space-around;
         align-items: center;
         padding: 1.5rem;
-        background: orangered;
+        // background: orangered;
+        // background: linear-gradient(31deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        background-image: url("../../assets/9836407.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 114% 416%;
+        background-position: 62% 71%;
 
         .headerLeft {
             display: flex;
             justify-content: space-between;
             flex: 1 0 20%;
-            font-size: 1.2rem;
             align-items: center;
         }
 
@@ -21,7 +26,6 @@
             flex: 1 0 50%;
             display: flex;
             justify-content: flex-end;
-            font-size: 1.2rem;
         }
     }
 }
