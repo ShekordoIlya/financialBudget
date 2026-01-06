@@ -1,5 +1,7 @@
+import styles from "./TransactionHistory.module.scss";
+
 const TransactionHistory = () => {
-  return <div>Transaction history page</div>;
+  return <div className={styles.transactionsContainer}>Transaction history page</div>;
 };
 
 export default TransactionHistory;
