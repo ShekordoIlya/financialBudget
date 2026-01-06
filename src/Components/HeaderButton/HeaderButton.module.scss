@@ -1,11 +1,12 @@
 .headerButton {
-    background: #f0e5e5;
+    background: hsl(0deg 0% 100% / 70%);
     border-radius: 1rem;
     box-shadow: 5px 6px 7px black;
     transition: box-shadow 0.3s, scale 0.1s;
 
     &:hover {
         box-shadow: unset;
+        scale: 0.97;
     }
 
     &:active {
