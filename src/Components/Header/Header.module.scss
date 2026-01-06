@@ -16,8 +16,16 @@
         .headerLeft {
             display: flex;
             justify-content: space-between;
-            flex: 1 0 20%;
+            flex: 1 0 5%;
             align-items: center;
+
+            .headerLeftLogo {
+                background-image: url("../../assets/finance-bank-piggy-business-money-svgrepo-com.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 87px;
+                height: 73px;
+            }
         }
 
         .headerRight {

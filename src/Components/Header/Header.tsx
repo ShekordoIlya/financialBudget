@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.headerContainer}>
       <nav className={styles.headerWrapper}>
         <ul className={styles.headerLeft}>
-          <li>LOGO</li>
+          <li className={styles.headerLeftLogo}></li>
 
           <li>
             <HeaderButton link="/" value="На главную" />
