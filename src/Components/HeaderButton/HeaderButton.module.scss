@@ -1,11 +1,26 @@
 .headerButton {
-    background: #7f8081;
+    background: #f0e5e5;
     border-radius: 1rem;
+    box-shadow: 5px 6px 7px black;
+    transition: box-shadow 0.3s, scale 0.1s;
+
+    &:hover {
+        box-shadow: unset;
+    }
+
+    &:active {
+        scale: 0.9;
+    }
 
     a {
-        color: #fff;
         width: 100%;
         display: block;
         padding: 1rem;
+        font-size: 1rem;
+        color: black;
+
+        &:active {
+            color: black;
+        }
     }
 }
