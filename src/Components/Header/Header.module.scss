@@ -1,0 +1,34 @@
+.headerContainer {
+    width: 100%;
+
+    .headerWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.5rem;
+        background: orangered;
+
+        .headerLeft {
+            display: flex;
+            justify-content: space-between;
+            flex: 1 0 20%;
+            font-size: 1.2rem;
+
+            li a {
+                color: #ccc
+            }
+        }
+
+        .headerRight {
+            flex: 1 0 50%;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 1.2rem;
+
+            li a {
+                color: #ccc
+            }
+        }
+    }
+}
