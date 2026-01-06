@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
+import HeaderButton from "../HeaderButton/HeaderButton";
 
 const Header = () => {
   return (
@@ -9,15 +9,15 @@ const Header = () => {
           <li>LOGO</li>
 
           <li>
-            <Link to="/">Главная</Link>
+            <HeaderButton link="/" value="На главную" />
           </li>
           <li>
-            <Link to="/transaction-history">История транзакций</Link>
+            <HeaderButton link="transaction-history" value="История транзакций" />
           </li>
         </ul>
         <ul className={styles.headerRight}>
           <li>
-            <Link to="/balance">Посмотреть баланс</Link>
+            <HeaderButton link="balance" value="Посмотреть баланс" />
           </li>
         </ul>
       </nav>
