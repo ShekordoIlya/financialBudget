@@ -9,13 +9,16 @@ const Header = () => {
           <li className={styles.headerLeftLogo}></li>
 
           <li>
-            <HeaderButton link="/" value="На главную" />
+            <HeaderButton link="home" value="На главную" />
           </li>
           <li>
             <HeaderButton link="transaction-history" value="История транзакций" />
           </li>
         </ul>
         <ul className={styles.headerRight}>
+          <li>
+            <HeaderButton link="/" value="Log in" />
+          </li>
           <li>
             <HeaderButton link="balance" value="Посмотреть баланс" />
           </li>
