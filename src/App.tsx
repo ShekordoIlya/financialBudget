@@ -3,13 +3,15 @@ import Layout from "./Pages/Layout/Layout";
 import HomePage from "./Pages/HomePage/HomePage";
 import TransactionHistory from "./Pages/TransactionHistory/TransactionHistory";
 import Balance from "./Pages/Balance/Balance";
+import LoginPage from "./Pages/LoginPage/LoginPage";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
+          <Route index element={<LoginPage />} />
+          <Route path="home" element={<HomePage />} />
           <Route path="transaction-history" element={<TransactionHistory />} />
           <Route path="balance" element={<Balance />} />
         </Route>
