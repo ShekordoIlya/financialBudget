@@ -1,0 +1,42 @@
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .formContainer {
+        padding-top: 14rem;
+
+        .form {
+            padding: 6rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            background: hsla(0, 0%, 100%, 0.7);
+            border-radius: 1rem;
+            box-shadow: 5px 6px 7px black;
+
+            .formData {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                label {
+                    font-size: 1.2rem;
+                    text-align: center;
+                }
+
+                input {
+                    border-radius: 0.35rem;
+                    padding: 0.20rem;
+                }
+            }
+
+            .btnWrapper {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+
+}

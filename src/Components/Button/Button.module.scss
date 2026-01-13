@@ -1,0 +1,18 @@
+.headerButton {
+    background: hsl(0deg 0% 100% / 70%);
+    border-radius: 1rem;
+    box-shadow: 5px 6px 7px black;
+    transition: box-shadow 0.3s, scale 0.1s;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+
+    &:hover {
+        box-shadow: unset;
+        scale: 0.97;
+        cursor: pointer;
+    }
+
+    &:active {
+        scale: 0.9;
+    }
+}
